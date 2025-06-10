@@ -22,3 +22,12 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew build
+
+      - name: Run Kobiton Appium tests
+        env:
+          KOBITON_USERNAME: ${{ secrets.KOBITON_USERNAME }}
+          KOBITON_API_KEY: ${{ secrets.KOBITON_API_KEY }}
+        run: |
+          ./gradlew test \
+            -DKOBITON_USERNAME="$KOBITON_USERNAME" \
+            -DKOBITON_API_KEY="$KOBITON_API_KEY"
