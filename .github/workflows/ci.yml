@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  run-tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,6 +28,6 @@ jobs:
           KOBITON_USERNAME: ${{ secrets.KOBITON_USERNAME }}
           KOBITON_API_KEY: ${{ secrets.KOBITON_API_KEY }}
         run: |
-          ./gradlew test \
+          ./gradlew test --rerun-tasks \
             -DKOBITON_USERNAME="$KOBITON_USERNAME" \
             -DKOBITON_API_KEY="$KOBITON_API_KEY"
