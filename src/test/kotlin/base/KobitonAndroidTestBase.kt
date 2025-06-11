@@ -1,7 +1,7 @@
-package org.granjamartinez.base
+package base
 
 import io.appium.java_client.android.AndroidDriver
-import org.granjamartinez.kobiton.KobitonConfigs
+import kobiton.KobitonConfigs
 import org.openqa.selenium.remote.DesiredCapabilities
 import org.testng.annotations.AfterClass
 import org.testng.annotations.BeforeClass

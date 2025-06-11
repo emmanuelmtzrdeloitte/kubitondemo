@@ -1,8 +1,8 @@
-package org.granjamartinez.local
+package local
 
-import org.granjamartinez.ApiDemosTestContract
-import org.granjamartinez.base.AndroidBaseTest
-import org.granjamartinez.pages.MainPage
+import ApiDemosTestContract
+import base.AndroidBaseTest
+import pages.MainPage
 import org.testng.Assert
 import org.testng.annotations.Test
 

@@ -1,9 +1,9 @@
-package org.granjamartinez.kobiton
+package kobiton
 
+import ApiDemosTestContract
 import io.appium.java_client.android.AndroidDriver
-import org.granjamartinez.ApiDemosTestContract
-import org.granjamartinez.base.KobitonAndroidTestBase
-import org.granjamartinez.pages.MainPage
+import base.KobitonAndroidTestBase
+import pages.MainPage
 import org.testng.Assert
 import org.testng.annotations.Test
 

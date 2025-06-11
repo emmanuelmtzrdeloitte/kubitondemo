@@ -1,4 +1,4 @@
-package org.granjamartinez.kobiton
+package kobiton
 
 import org.openqa.selenium.remote.DesiredCapabilities
 import java.net.URI

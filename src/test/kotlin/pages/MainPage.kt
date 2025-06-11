@@ -1,4 +1,4 @@
-package org.granjamartinez.pages
+package pages
 
 import io.appium.java_client.AppiumBy
 
