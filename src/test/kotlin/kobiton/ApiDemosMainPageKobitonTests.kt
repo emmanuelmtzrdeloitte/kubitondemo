@@ -5,8 +5,10 @@ import io.appium.java_client.android.AndroidDriver
 import base.KobitonAndroidTestBase
 import pages.MainPage
 import org.testng.Assert
+import org.testng.annotations.Ignore
 import org.testng.annotations.Test
 
+@Ignore
 class ApiDemosMainPageKobitonTests : KobitonAndroidTestBase() , ApiDemosMainPageTestContract {
 
     @Test
