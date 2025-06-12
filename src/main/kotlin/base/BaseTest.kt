@@ -9,6 +9,7 @@ import org.testng.annotations.AfterClass
 import org.testng.annotations.BeforeTest
 import java.io.File
 import java.net.URI
+import java.time.Duration
 
 open class BaseTest<Driver : AppiumDriver> {
 
@@ -31,6 +32,7 @@ open class BaseTest<Driver : AppiumDriver> {
             }
 
             driver = AndroidDriver(URI("http://127.0.0.1:4723").toURL(), options)
+            driver?.manage()?.timeouts()?.implicitlyWait(Duration.ofSeconds(10))
         }
     }
 

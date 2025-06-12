@@ -1,12 +1,12 @@
 package local
 
-import ApiDemosTestContract
+import ApiDemosMainPageTestContract
 import base.AndroidBaseTest
-import pages.MainPage
 import org.testng.Assert
 import org.testng.annotations.Test
+import pages.MainPage
 
-class ApiDemosTests : AndroidBaseTest(), ApiDemosTestContract {
+class ApiDemoMainPageTestsMainPage : AndroidBaseTest(), ApiDemosMainPageTestContract  {
 
     @Test
     override fun `when Api Demos app is opened accessibility option should be displayed`() {
@@ -61,14 +61,14 @@ class ApiDemosTests : AndroidBaseTest(), ApiDemosTestContract {
 
     @Test
     override fun `when Api Demos app is opened os option should be displayed`() {
-       val mainPage = MainPage()
+        val mainPage = MainPage()
 
         Assert.assertTrue(getDriver().findElement(mainPage.osOption).isDisplayed)
     }
 
     @Test
     override fun `when Api Demos app is opened preference should be displayed`() {
-       val mainPage = MainPage()
+        val mainPage = MainPage()
 
         Assert.assertTrue(getDriver().findElement(mainPage.preferenceOption).isDisplayed)
     }
@@ -86,5 +86,4 @@ class ApiDemosTests : AndroidBaseTest(), ApiDemosTestContract {
 
         Assert.assertTrue(getDriver().findElement(mainPage.viewsOption).isDisplayed)
     }
-
 }

@@ -1,4 +1,4 @@
-interface ApiDemosTestContract {
+interface ApiDemosMainPageTestContract {
 
     fun `when Api Demos app is opened accessibility option should be displayed`()
 

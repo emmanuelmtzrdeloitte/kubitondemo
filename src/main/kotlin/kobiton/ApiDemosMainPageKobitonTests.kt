@@ -1,13 +1,13 @@
 package kobiton
 
-import ApiDemosTestContract
+import ApiDemosMainPageTestContract
 import io.appium.java_client.android.AndroidDriver
 import base.KobitonAndroidTestBase
 import pages.MainPage
 import org.testng.Assert
 import org.testng.annotations.Test
 
-class ApiDemosKobitonTests : KobitonAndroidTestBase() , ApiDemosTestContract {
+class ApiDemosMainPageKobitonTests : KobitonAndroidTestBase() , ApiDemosMainPageTestContract {
 
     @Test
     override
