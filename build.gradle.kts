@@ -1,8 +1,8 @@
 plugins {
-    kotlin("jvm") version "1.9.24"
+    id("java")
 }
 
-group = "org.granjamartinez"
+group = "org.kobiton"
 version = "0.0.1"
 
 repositories {
@@ -15,17 +15,11 @@ java {
     }
 }
 
-kotlin {
-    jvmToolchain(8)
-}
-
 dependencies {
-    testImplementation("io.appium:java-client:9.4.0")
-    testImplementation("org.testng:testng:7.11.0")
-    testImplementation(kotlin("test"))
+    testImplementation("io.appium:java-client:8.6.0")
+    testImplementation("org.testng:testng:7.5.1")
 }
 
 tasks.test {
-    maxParallelForks = 1
     useTestNG()
 }
