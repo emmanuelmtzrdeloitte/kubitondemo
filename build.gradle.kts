@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.0.21"
+    kotlin("jvm") version "1.9.24"
 }
 
 group = "org.granjamartinez"
@@ -11,12 +11,12 @@ repositories {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(8))
     }
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(8)
 }
 
 dependencies {
