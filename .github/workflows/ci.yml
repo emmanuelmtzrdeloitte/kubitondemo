@@ -20,9 +20,6 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
-      - name: Build with Gradle
-        run: ./gradlew build
-
       - name: Run Kobiton Appium tests
         uses: kobiton/execute-appium-test-github-action@v1.0.0
         with:
