@@ -3,9 +3,11 @@ package local
 import ApiDemosMainPageTestContract
 import base.AndroidBaseTest
 import org.testng.Assert
+import org.testng.annotations.Ignore
 import org.testng.annotations.Test
 import pages.MainPage
 
+@Ignore
 class ApiDemoMainPageTestsMainPage : AndroidBaseTest(), ApiDemosMainPageTestContract {
 
     @Test

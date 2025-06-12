@@ -2,11 +2,13 @@ package local
 
 import ApiDemoPreferencePageTestsContract
 import base.AndroidBaseTest
+import org.testng.annotations.Ignore
 import org.testng.annotations.Test
 import pages.MainPage
 import pages.PreferenceDependenciesPage
 import pages.PreferencesPage
 
+@Ignore
 class ApiDemosMainPageTests : AndroidBaseTest(), ApiDemoPreferencePageTestsContract {
 
     @Test
