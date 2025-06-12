@@ -20,11 +20,11 @@ kotlin {
 }
 
 dependencies {
-    implementation("io.appium:java-client:9.4.0")
-    implementation("org.testng:testng:7.11.0")
+    testImplementation("io.appium:java-client:9.4.0")
+    testImplementation("org.testng:testng:7.11.0")
     testImplementation(kotlin("test"))
 }
 
 tasks.test {
-    useJUnitPlatform()
+    useTestNG()
 }
