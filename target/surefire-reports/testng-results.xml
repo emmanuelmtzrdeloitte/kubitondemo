@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-12T16:34:32 CST" name="Surefire suite" finished-at="2025-06-12T16:34:41 CST" duration-ms="8630">
+  <suite started-at="2025-06-12T16:40:37 CST" name="Surefire suite" finished-at="2025-06-12T16:40:46 CST" duration-ms="9126">
     <groups>
     </groups>
-    <test started-at="2025-06-12T16:34:32 CST" name="Surefire test" finished-at="2025-06-12T16:34:41 CST" duration-ms="8630">
+    <test started-at="2025-06-12T16:40:37 CST" name="Surefire test" finished-at="2025-06-12T16:40:46 CST" duration-ms="9126">
       <class name="MainPageTests">
-        <test-method is-config="true" signature="init()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:34:32 CST" name="init" finished-at="2025-06-12T16:34:41 CST" duration-ms="8609" status="FAIL">
+        <test-method is-config="true" signature="init()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:40:37 CST" name="init" finished-at="2025-06-12T16:40:46 CST" duration-ms="9105" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
@@ -62,8 +62,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -75,7 +75,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="assertPreferenceOptionIsDisplayed()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:34:41 CST" name="assertPreferenceOptionIsDisplayed" finished-at="2025-06-12T16:34:41 CST" duration-ms="0" status="SKIP">
+        <test-method signature="assertPreferenceOptionIsDisplayed()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:40:46 CST" name="assertPreferenceOptionIsDisplayed" finished-at="2025-06-12T16:40:46 CST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
@@ -130,8 +130,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -143,7 +143,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertPreferenceOptionIsDisplayed -->
-        <test-method signature="assertThatClickingPreferenceOptionOpensPreferencePage()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:34:41 CST" name="assertThatClickingPreferenceOptionOpensPreferencePage" finished-at="2025-06-12T16:34:41 CST" duration-ms="0" status="SKIP">
+        <test-method signature="assertThatClickingPreferenceOptionOpensPreferencePage()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:40:46 CST" name="assertThatClickingPreferenceOptionOpensPreferencePage" finished-at="2025-06-12T16:40:46 CST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
@@ -198,8 +198,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -211,7 +211,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertThatClickingPreferenceOptionOpensPreferencePage -->
-        <test-method signature="assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:34:41 CST" name="assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed" finished-at="2025-06-12T16:34:41 CST" duration-ms="0" status="SKIP">
+        <test-method signature="assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:40:46 CST" name="assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed" finished-at="2025-06-12T16:40:46 CST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
@@ -266,8 +266,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -279,7 +279,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:34:41 CST" name="tearDown" finished-at="2025-06-12T16:34:41 CST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MainPageTests@20d3d15a]" started-at="2025-06-12T16:40:46 CST" name="tearDown" finished-at="2025-06-12T16:40:46 CST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
