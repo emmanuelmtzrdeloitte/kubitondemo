@@ -36,5 +36,5 @@ jobs:
           device_platform_version: '15'
           device_platform: 'Android'
           root_directory: '/'
-          command: './gradlew test'
+          command: './gradlew test --no-daemon -Dorg.gradle.jvmargs="-Xmx384m" --stacktrace --info'
           wait_for_execution: 'true'

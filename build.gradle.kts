@@ -26,5 +26,6 @@ dependencies {
 }
 
 tasks.test {
+    maxParallelForks = 1
     useTestNG()
 }
