@@ -32,7 +32,7 @@ jobs:
           executor_username: ${{ secrets.KOBITON_EXECUTOR_USERNAME }}
           executor_password: ${{ secrets.KOBITON_EXECUTOR_PASSWORD }}
           git_repo_url: https://github.com/emmanuelmtzrdeloitte/kubitondemo.git
-          git_repo_branch: master
+          git_repo_branch: main
           app_id: kobiton-store:v725763
           use_custom_device: 'true'
           device_name: 'Pixel 8'
