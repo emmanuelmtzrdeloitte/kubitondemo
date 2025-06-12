@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">8,630</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">MainPageTests</td><td><a href="#m0">init</a></td><td rowspan="1">1749767672921</td><td rowspan="1">8609</td></tr><tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">MainPageTests</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1749767681544</td><td rowspan="1">0</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">MainPageTests</td><td><a href="#m2">assertPreferenceOptionIsDisplayed</a></td><td rowspan="1">1749767681540</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">assertThatClickingPreferenceOptionOpensPreferencePage</a></td><td rowspan="1">1749767681541</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed</a></td><td rowspan="1">1749767681543</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">MainPageTests#init</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
+Host info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:84a:392:f7f3:7d6d%en0&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;23.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:accessKey=b4202a39-ac70-4a72-98c9-f84b0e338516, appium:app=kobiton-store:654582, appium:autoWebview=true, appium:deviceName=Pixel *, appium:platformVersion=15, appium:username=is.emmanuel.deloitte, browserName=chrome, kobiton:captureScreenshots=true, kobiton:deviceGroup=KOBITON, kobiton:deviceOrientation=portrait, kobiton:retainDurationInSeconds=0, kobiton:sessionDescription=, kobiton:sessionName=Automation test session, kobiton:useConfiguration=, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}}]
+Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:113)
+	at base.BaseTest.init(BaseTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">MainPageTests#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">MainPageTests#assertPreferenceOptionIsDisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
+Host info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:84a:392:f7f3:7d6d%en0&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;23.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:accessKey=b4202a39-ac70-4a72-98c9-f84b0e338516, appium:app=kobiton-store:654582, appium:autoWebview=true, appium:deviceName=Pixel *, appium:platformVersion=15, appium:username=is.emmanuel.deloitte, browserName=chrome, kobiton:captureScreenshots=true, kobiton:deviceGroup=KOBITON, kobiton:deviceOrientation=portrait, kobiton:retainDurationInSeconds=0, kobiton:sessionDescription=, kobiton:sessionName=Automation test session, kobiton:useConfiguration=, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}}]
+Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:113)
+	at base.BaseTest.init(BaseTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">MainPageTests#assertThatClickingPreferenceOptionOpensPreferencePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
+Host info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:84a:392:f7f3:7d6d%en0&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;23.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:accessKey=b4202a39-ac70-4a72-98c9-f84b0e338516, appium:app=kobiton-store:654582, appium:autoWebview=true, appium:deviceName=Pixel *, appium:platformVersion=15, appium:username=is.emmanuel.deloitte, browserName=chrome, kobiton:captureScreenshots=true, kobiton:deviceGroup=KOBITON, kobiton:deviceOrientation=portrait, kobiton:retainDurationInSeconds=0, kobiton:sessionDescription=, kobiton:sessionName=Automation test session, kobiton:useConfiguration=, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}}]
+Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:113)
+	at base.BaseTest.init(BaseTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">MainPageTests#assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: You have reached 1/1 parallel tests. Try again soon or contact Support to upgrade. 
+Host info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:84a:392:f7f3:7d6d%en0&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;23.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:accessKey=b4202a39-ac70-4a72-98c9-f84b0e338516, appium:app=kobiton-store:654582, appium:autoWebview=true, appium:deviceName=Pixel *, appium:platformVersion=15, appium:username=is.emmanuel.deloitte, browserName=chrome, kobiton:captureScreenshots=true, kobiton:deviceGroup=KOBITON, kobiton:deviceOrientation=portrait, kobiton:retainDurationInSeconds=0, kobiton:sessionDescription=, kobiton:sessionName=Automation test session, kobiton:useConfiguration=, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}}]
+Capabilities {appium:accessKey: b4202a39-ac70-4a72-98c9-f84..., appium:app: kobiton-store:654582, appium:autoWebview: true, appium:deviceName: Pixel *, appium:platformVersion: 15, appium:username: is.emmanuel.deloitte, browserName: chrome, kobiton:captureScreenshots: true, kobiton:deviceGroup: KOBITON, kobiton:deviceOrientation: portrait, kobiton:retainDurationInSeconds: 0, kobiton:sessionDescription: , kobiton:sessionName: Automation test session, kobiton:useConfiguration: , platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:113)
+	at base.BaseTest.init(BaseTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+MainPageTests.class
+page/PreferencePage.class
+assertions/MainPageAssertions.class
+config/KobitonConfig.class
+page/MainPage.class
+base/BaseTest.class
