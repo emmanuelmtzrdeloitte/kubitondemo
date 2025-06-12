@@ -15,12 +15,14 @@ public class MainPageTests extends BaseTest implements MainPageAssertions {
         Assert.assertTrue(preferenceOption.isDisplayed());
     }
 
+    @Test
     @Override
     public void assertThatClickingPreferenceOptionOpensPreferencePage() {
         WebElement preferenceOption = driver.findElement(MainPage.preferenceOption);
         preferenceOption.click();
     }
 
+    @Test
     @Override
     public void assertThatOnPreferenceScreenPreferenceDependenciesOptionIsDisplayed() {
         WebElement preferenceOption = driver.findElement(MainPage.preferenceOption);

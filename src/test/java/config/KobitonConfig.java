@@ -31,6 +31,7 @@ public class KobitonConfig {
         desiredCapabilities.setCapability("appium:username", USERNAME);
         desiredCapabilities.setCapability("appium:accessKey", ACCESS_KEY);
         desiredCapabilities.setCapability("platformName", "Android");
+        desiredCapabilities.setCapability("appium:app","kobiton-store:654582");
         desiredCapabilities.setCapability("kobiton:retainDurationInSeconds", 0);
         return desiredCapabilities;
     }
