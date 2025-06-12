@@ -24,7 +24,7 @@ jobs:
         run: ./gradlew build
 
       - name: Run Kobiton Appium tests
-        uses: kobiton/execute-appium-test-github-action@v1
+        uses: kobiton/execute-appium-test-github-action@v1.0.0
         with:
           kobi_username: ${{ secrets.KOBITON_USERNAME }}
           kobi_api_key: ${{ secrets.KOBITON_API_KEY }}
@@ -33,7 +33,6 @@ jobs:
           executor_password: ${{ secrets.KOBITON_EXECUTOR_PASSWORD }}
           git_repo_url: https://github.com/emmanuelmtzrdeloitte/kubitondemo.git
           git_repo_branch: master
-          git_repo_ssh_key: ""
           app_id: kobiton-store:v725763
           use_custom_device: 'true'
           device_name: 'Pixel 8'
