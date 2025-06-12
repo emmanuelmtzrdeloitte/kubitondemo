@@ -9,7 +9,7 @@ import pages.PreferenceDependenciesPage
 import pages.PreferencesPage
 
 @Ignore
-class ApiDemosMainPageTests : AndroidBaseTest(), ApiDemoPreferencePageTestsContract {
+class ApiDemosPreferencePageTests : AndroidBaseTest(), ApiDemoPreferencePageTestsContract {
 
     @Test
     override fun `when Api Demos app is opened then select preference option then display Preference Screen`() {

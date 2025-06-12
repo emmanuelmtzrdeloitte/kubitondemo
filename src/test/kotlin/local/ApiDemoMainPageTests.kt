@@ -8,7 +8,7 @@ import org.testng.annotations.Test
 import pages.MainPage
 
 @Ignore
-class ApiDemoMainPageTestsMainPage : AndroidBaseTest(), ApiDemosMainPageTestContract {
+class ApiDemoMainPageTests : AndroidBaseTest(), ApiDemosMainPageTestContract {
 
     @Test
     override fun `when Api Demos app is opened accessibility option should be displayed`() {
